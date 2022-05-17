@@ -16,10 +16,10 @@ export default function Balance() {
                 </View>
             </View>
             <View style={styles.balance}>
-                <Text style={styles.balanceTitle}>Saldo: </Text>
+                <Text style={styles.balanceTitle}>Gastos: </Text>
                 <View>
                     <Text style={styles.balanceCurrency}>R$</Text>
-                    <Text style={styles.balanceValue}>15.000,00</Text>
+                    <Text style={styles.balanceValue}>390,00</Text>
                 </View>
             </View>
         </View>
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
         zIndex: 99
     },
     balanceTitle: {
-        fontSize: 18,
+        fontSize: 17,
         color: '#DADADA'
     }
 });
